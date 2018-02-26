@@ -4,5 +4,22 @@
   "description": "A standalone Rikaichan container",
   "author": "Alexander Ivanov",
   "main": "src/index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "build": {
+    "platforms": [
+      "win32-x64",
+      "darwin-x64",
+      "linux-x64"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.8.2",
+    "recursive-copy": "^2.0.9",
+    "rimraf": "^2.6.2",
+    "unzip": "^0.1.11"
+  },
   "license": "MIT"
 }
