@@ -1,0 +1,4 @@
+[submodule "src/rikaikun"]
+	path = src/rikaikun
+	url = https://github.com/melink14/rikaikun.git
+	branch = master
