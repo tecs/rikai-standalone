@@ -1,0 +1,8 @@
+{
+  "name": "rikai-standalone",
+  "version": "1.0.0",
+  "description": "A standalone Rikaichan container",
+  "author": "Alexander Ivanov",
+  "main": "src/index.js",
+  "license": "MIT"
+}

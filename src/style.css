@@ -1,0 +1,35 @@
+html, body, #content-editor, #app-options {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+#content-editor, #app-options {
+    height: auto;
+    min-height: 100% !important;
+}
+#content-editor {
+    padding: 10px;
+    resize: none;
+    -webkit-appearance: textarea;
+    z-index: 1;
+    outline: none;
+}
+#app-options {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.options-visible #app-options {
+    display: block;
+}
+.options-visible #content-editor {
+    display: none;
+}
